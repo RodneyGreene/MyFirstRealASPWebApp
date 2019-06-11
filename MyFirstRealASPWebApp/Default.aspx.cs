@@ -18,7 +18,7 @@ namespace MyFirstRealASPWebApp
         {
             string first = TxtFirst.Text;
             string last = TxtLast.Text;
-            string result = "Hello there, " + first + " " + last + ". ";
+            string result = "Hello there, " + first + " " + last + "... ";
             LblResult.Text = result; 
         }
     }
